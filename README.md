@@ -27,6 +27,7 @@ Each sample consists of an 11 x 61 matrix, where:
 ## Repository Structure
 
 The repository contains separate implementation files for each architecture:
+```plaintext
 ├── CNN/
 │   ├── cnn_dev.ipynb       # Development and training notebook
 │   ├── cnn_test31.ipynb    # Testing with random state 31
@@ -43,11 +44,11 @@ The repository contains separate implementation files for each architecture:
 │   ├── lstm_test62.ipynb
 │   └── lstm_test93.ipynb
 └── GRU/
-├── gru_dev.ipynb
-├── gru_test31.ipynb
-├── gru_test62.ipynb
-└── gru_test93.ipynb
-
+    ├── gru_dev.ipynb
+    ├── gru_test31.ipynb
+    ├── gru_test62.ipynb
+    └── gru_test93.ipynb
+```
 
 ## Performance Results
 
